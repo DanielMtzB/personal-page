@@ -1,0 +1,25 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-primary">
+    <a class="navbar-brand" href="/">
+        <img src="/assets/logo.jpg" width="30" height="30">
+        DanyMarBer
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav" dropdown>
+            <li><a class="nav-item nav-link" routerLink="/quien-soy" routerLinkActive="active"
+                    [routerLinkActiveOptions]="{exact: true}"> Quien Soy</a></li>
+            <li><a class="nav-item nav-link" routerLink="/formacion" routerLinkActive="active">Formacion</a></li>
+
+            <li><a class="nav-item nav-link" routerLink="/proyectos" routerLinkActive="active">Proyectos</a></li>
+
+            <li><a class="nav-item nav-link" routerLink="/experiencia" routerLinkActive="active">Experiencia</a></li>
+
+        </ul>
+        <ul class="navbar-nav ml-auto">
+            <li><button class="btn btn-danger" routerLink="/contacto">Contacto</button></li>
+        </ul>
+    </div>
+</nav>
